@@ -1,0 +1,54 @@
+
+
+
+  *{
+    box-sizing:border-box;
+    font-family: sans-serif;
+  }
+
+  body{
+    background: rgba(23,54,65,0.567);
+  }
+  #container{
+    width:600px;
+    height:400px;
+    background:skyblue;
+    position:absolute;
+    border-radius:20px;
+    left:10%;
+    top:17%;
+    border:3px dotted black;
+
+  }
+  #img{
+    
+    width:500px;
+    height:300px;
+    position:relative;
+    top:60px;
+  
+
+    border-radius:10px;
+    border-image:none;
+    
+    
+  }
+  .label{
+     font-size:1rem;
+     letter-spacing:5px;
+     color:red;
+     padding:10px 10px;
+     background: cyan;
+     border-radius:10px;
+     position:relative;
+     bottom:72%;
+     left:53px;
+     
+  }
+  .label:active{
+    background: pink;
+
+  }
+  
+
+
